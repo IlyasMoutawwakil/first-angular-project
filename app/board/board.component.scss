@@ -1,0 +1,23 @@
+main {
+  display: grid;
+  grid-template-columns: 25vh 25vh 25vh;
+  grid-gap: 1px;
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 25vh;
+}
+
+@media (max-width: 850px) {
+  main {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-gap: 2px;
+  }
+
+  app-square {
+    border: 1px gray solid;
+    height: 30vw;
+  }
+}
